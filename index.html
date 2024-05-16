@@ -3,51 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Website</title>
+  <title>Advanced One-Page Website</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>Welcome to My Awesome Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
+  <section id="about" class="section">
     <div class="container">
-      <h2>About Me</h2>
-      <p>I'm passionate about web development and creating user-friendly experiences. Let me tell you a bit about myself...</p>
+      <h2>About Us</h2>
+      <p>We are a team of passionate individuals dedicated to crafting beautiful and functional websites.</p>
     </div>
   </section>
 
-  <section id="portfolio">
+  <section id="services" class="section bg-gray">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service">
+        <h3>Web Design</h3>
+        <p>We create stunning designs tailored to your brand.</p>
+      </div>
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>Our developers bring your ideas to life with clean and efficient code.</p>
+      </div>
+      <div class="service">
+        <h3>SEO Optimization</h3>
+        <p>We optimize your website to rank higher in search engine results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
     <div class="container">
       <h2>Portfolio</h2>
-      <p>Check out some of my recent projects:</p>
       <!-- Add portfolio items here -->
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="section bg-gray">
     <div class="container">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out to me via email or social media:</p>
-      <ul>
-        <li>Email: example@example.com</li>
-        <li>Twitter: @example</li>
-        <li>LinkedIn: linkedin.com/in/example</li>
-      </ul>
+      <h2>Contact Us</h2>
+      <p>Got a project in mind? Let's talk!</p>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2024 My Personal Website</p>
+      <p>&copy; 2024 My Awesome Website</p>
     </div>
   </footer>
 </body>
